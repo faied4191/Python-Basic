@@ -7,3 +7,7 @@ count = 0
 # Calculate the length of the string
 for char in a:
     count += 1
+
+# Print the name and its length
+print("Name:", a)
+print("Length:", count)
