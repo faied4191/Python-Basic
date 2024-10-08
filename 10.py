@@ -16,3 +16,7 @@ b = float(input("Enter the second number: "))
 # Calculate the sum and maximum using the functions
 sum_result = is_sum(a, b)
 max_result = is_max(a, b)
+
+# Print the results
+print("The sum is:", sum_result)
+print("The maximum number is:", max_result)
