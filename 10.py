@@ -8,3 +8,7 @@ def is_max(x, y):
         return x
     else:
         return y
+
+# Get user input for two numbers
+a = float(input("Enter the first number: "))
+b = float(input("Enter the second number: "))
