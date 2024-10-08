@@ -12,3 +12,7 @@ def is_max(x, y):
 # Get user input for two numbers
 a = float(input("Enter the first number: "))
 b = float(input("Enter the second number: "))
+
+# Calculate the sum and maximum using the functions
+sum_result = is_sum(a, b)
+max_result = is_max(a, b)
