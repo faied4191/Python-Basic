@@ -12,3 +12,7 @@ class Book:
 # Create instances of Book
 ob1 = Book("The Lord of the Rings", "J.R.R. Tolkien", 1954)
 ob2 = Book("The Hitchhiker's Guide to the Galaxy", "Douglas Adams", 1979)
+
+# Display the details of each book
+ob1.display()
+ob2.display()
