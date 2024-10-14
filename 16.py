@@ -4,3 +4,7 @@ class Animal:
 
     def sleep(self):
         print("Sleep")
+
+class Dog(Animal):
+    def bark(self):
+        print("Woof!")
