@@ -11,3 +11,8 @@ class Dog(Animal):
 
 # Create an instance of Dog
 ob = Dog()
+
+# Call methods from Animal and Dog classes
+ob.eat()
+ob.sleep()
+ob.bark()
