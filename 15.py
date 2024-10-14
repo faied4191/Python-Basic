@@ -13,3 +13,7 @@ class Rectangle:
 
 # Create an instance of Rectangle
 ob = Rectangle(5, 3)
+
+# Display the area and perimeter of the rectangle
+ob.area()
+ob.perimeter()
