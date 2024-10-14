@@ -6,3 +6,7 @@ class Rectangle:
     def area(self):
         area = self.length * self.width
         print("Area:", area)
+
+    def perimeter(self):
+        perimeter = 2 * (self.length + self.width)
+        print("Perimeter:", perimeter)
