@@ -10,3 +10,6 @@ class Rectangle:
     def perimeter(self):
         perimeter = 2 * (self.length + self.width)
         print("Perimeter:", perimeter)
+
+# Create an instance of Rectangle
+ob = Rectangle(5, 3)
