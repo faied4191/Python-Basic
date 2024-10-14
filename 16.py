@@ -8,3 +8,6 @@ class Animal:
 class Dog(Animal):
     def bark(self):
         print("Woof!")
+
+# Create an instance of Dog
+ob = Dog()
