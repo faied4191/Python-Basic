@@ -8,3 +8,7 @@ class Book:
         print("Title:", self.title)
         print("Author:", self.author)
         print("Year:", self.year)
+
+# Create instances of Book
+ob1 = Book("The Lord of the Rings", "J.R.R. Tolkien", 1954)
+ob2 = Book("The Hitchhiker's Guide to the Galaxy", "Douglas Adams", 1979)
