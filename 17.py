@@ -9,3 +9,6 @@ class Calculator:
         else:
             # Three arguments are provided
             print("The Sum is:", a + b + c)
+
+# Create an instance of Calculator
+ob = Calculator()
