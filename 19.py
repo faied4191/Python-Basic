@@ -7,3 +7,6 @@ class Adder:
 
     def get_total(self):
         return self.total
+
+# Create an instance of Adder
+a = Adder()
