@@ -6,3 +6,8 @@ def add(a, b, c=None):
             print("The Sum is:", a + b)
     else:
         print("The Sum is:", a + b + c)
+
+# Call the add function with different arguments
+add(5, 3)       # Sum of two integers
+add(2.5, 1.8)   # Sum of two floats
+add(1, 2, 3)    # Sum of three integers
