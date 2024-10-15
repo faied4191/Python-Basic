@@ -10,3 +10,11 @@ class Adder:
 
 # Create an instance of Adder
 a = Adder()
+
+# Add numbers
+a.add_num(10)
+a.add_num(20)
+a.add_num(30)
+
+# Print the total
+print("Total", a.get_total())
