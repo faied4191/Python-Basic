@@ -12,3 +12,8 @@ class Calculator:
 
 # Create an instance of Calculator
 ob = Calculator()
+
+# Call the add method with different arguments
+ob.add(5, 3)       # Sum of two integers
+ob.add(2.5, 1.8)   # Sum of two floats
+ob.add(1, 2, 3)    # Sum of three integers
