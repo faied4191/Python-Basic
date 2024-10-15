@@ -4,3 +4,6 @@ class Adder:
 
     def add_num(self, number):
         self.total += number
+
+    def get_total(self):
+        return self.total
